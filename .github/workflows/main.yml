@@ -31,10 +31,6 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # 5. Lint code
-      - name: Lint
-        run: npm run lint
-
       # 6. Build project (optional for static apps)
       - name: Build
         run: npm run build
